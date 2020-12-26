@@ -1,0 +1,10 @@
+// EVERY CONSTANT CAN CONTAIN THREE STATE LOADING,ERROR,SUCCESS
+const prefix = "[post]";
+const FETCH_POST = {
+  PENDING: `${prefix}_FETCH_POST_PENDING`,
+  SUCCESS: `${prefix}_FETCH_POST_SUCCESS`,
+  REJECT: `${prefix}_FETCH_POST_REJECT`,
+  TEST_ACTION: `${prefix}_FETCH_POST_TEST`,
+};
+
+export { FETCH_POST };
